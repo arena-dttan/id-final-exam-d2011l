@@ -1,0 +1,171 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}  
+
+html, body {
+    font-family: 'Roboto',sans-serif;
+    font-size: 18px;
+}
+
+h2{
+    color:#ffcc57;
+    font-size: 1.602rem;
+}
+
+.section {
+    padding-bottom: 20%;
+}
+
+#menu {
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    background-color: white;
+}
+
+/* INTRODUCTION */
+/* INTRODUCTION - HEADING */
+#gioithieu{
+    width: 68%;
+    height: 242px;
+    background-color:white;
+    margin: auto;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 5%;
+}
+#gioithieu .heading {
+    width: 200px;
+    height: 200px;
+    float: left;
+    text-align: left;
+    margin-top: 20px;
+}
+#gioithieu .heading > p{
+    margin-top: 20px;
+}
+/* INTRODUCTION - CONTENT */ 
+#gioithieu .content{
+   display: inline-block;
+   width: 140px;
+   height: 240px;
+   box-shadow: 0 0 5px 2px rgb(0 0 0 / 8%), 0 0 5px 5px rgb(0 0 0 / 8%), 5px 0 5px 5px rgb(0 0 0 / 8%);
+   margin: 0px 12px;
+   padding: 25px;
+   border-radius: 10px;
+   cursor: pointer;
+   text-align: center;
+   float: right;
+}
+#gioithieu  .content img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+#gioithieu  .content:hover{
+       background: #fff892c0;      
+}
+#gioithieu .content {
+       text-align: center;
+       font-size: 18px;
+}
+
+/* ADMISSIONS */
+#tuyensinh{
+    width: 66%;
+    height: 70vh;
+    background-color:white;
+    margin: auto;
+    box-shadow: 0 0.25rem 0.25rem 0.25rem rgb(0 0 0 / 8%);
+    background-color:white;
+    border-radius: 15px;
+    padding: 30px 24px 0px;
+    margin-bottom: 70px;
+}
+
+#tuyensinh .heading {
+    width: 100%;
+    margin-bottom: 46px;
+}
+
+#tuyensinh hr {
+    border: solid black 1px;
+    margin: 15px 0px 28px;
+}
+
+#tuyensinh .content-left{
+   width: 40%;
+   float: left;
+   text-align: justify;
+   font-size: 18px;
+}
+
+h1{
+  font-weight: bold;
+  font-size: 46px;
+  text-transform: uppercase;
+}
+#tuyensinh .content-right{
+   width: 50%;
+   float: right;
+   text-decoration: line-through rgba(248, 200, 34,0.4) solid 11px;
+   margin-right: 60px;
+   margin-top: 20px;
+}
+
+#tuyensinh .content-right h3 {
+  font-weight: bold;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+#tuyensinh .content-right img {
+    float: right;
+    width: 80%;
+}
+
+/* FOOTER */
+#footer{
+    width: 100%;
+    background-color:rgba(128, 128, 128, 0.294);
+    padding: 20px 0px 20px 100px;
+    margin: 50px 0px 0px 0px;
+}
+
+#hcm {
+    height: 20vh;
+}
+
+#hn {
+    height: 20vh;
+    margin-top: 40px;
+}
+
+#hcm >  hr{
+    border:  solid    #7272db 0.35px ;
+    margin: 15px 0px;
+ }
+
+ #hn >  hr{
+    border:  solid    #7272db 0.35px ;
+    margin: 15px 0px;
+ }
+
+#footer .content{
+    width: 20%;
+    float: left;
+    font-size: 15px;
+    padding: 0px 20px 0px 5px;
+    font-weight: bold;
+}
+
+#footer .content > hr {
+    margin: 10px 0px 15px;
+}
+
+#footer li {
+    text-transform: capitalize;
+    font-weight: 400;
+    float: none;
+}

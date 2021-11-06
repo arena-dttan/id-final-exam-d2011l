@@ -1,0 +1,131 @@
+:root {
+    --nav-height: 60px;
+}
+
+#menu {
+    height: var(--nav-height);
+    box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 8%);
+    width: 100%;
+    line-height: var(--nav-height);
+    font-size: 15px;
+}
+
+#menu .logo{
+    margin-right: 46px;
+}
+
+#menu .logo img {
+    height: 42px;
+    margin-top: 9px;
+    margin-left: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+    font-weight: bold;;
+}
+
+li {
+    float: left;
+    text-transform: uppercase;
+    padding-right: 0.5rem;
+    
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+li a:hover,
+.dropdown:hover {
+    background: #f5ed28;
+}
+
+li a,
+.dropdown-btn {
+    display: inline-block;
+    color: #333;
+    text-align: center;
+    padding: 0 7px;
+    text-decoration: none;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: #f5ed28;
+    z-index: 1;
+    line-height: 2;
+    border: none;
+    transition: all .3s ease-in-out;
+    text-transform: none;
+    padding-right: 0.5rem;
+    min-width: 227px;
+    
+}
+
+.dropdown-content a {
+    color: #333;
+    padding: 3px 16px;
+    display: block;
+    text-align: left;
+    background-color: transparent;
+    /* transition: all .3s ease-in-out; */
+    border: 0!important;
+    padding-left: 1.5rem;
+}
+
+.dropdown-content a:hover {
+    /* background-color: tomato; */
+    background-image: linear-gradient(to right, #ffc600, #F8C800, #f5ed28);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.item {
+    text-align: left;
+    padding-left: 10px;
+    font-weight: bolder;
+}
+
+.item-symbol {
+    font-size: 7px;
+    position: relative;
+    top: -3px;
+}
+
+.cta-button {
+    float: right;
+    height: 40px;
+    background-color: orange;
+    text-align: center;
+    width: 88px;
+    /* display: inline-block; */
+    line-height: 40px;
+    margin-right: 16px;
+    border-radius:  99px;
+    margin: 10px;
+}
+
+.logo:hover a{
+    background: none;
+}
+
+.cta-button:hover {
+    background-image: linear-gradient(to right, #ffc600, #F8C800, #f5ed28);
+}
+
+.cta-button:hover a {
+
+}
+
+.cta-button a {
+   
+    text-decoration: none;
+}
